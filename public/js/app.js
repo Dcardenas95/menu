@@ -36659,8 +36659,8 @@ module.exports = function(module) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./router */ "./resources/js/router/index.js");
-/* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./store */ "./resources/js/store/index.js");
+/* harmony import */ var _router_index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./router/index */ "./resources/js/router/index.js");
+/* harmony import */ var _store_index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./store/index */ "./resources/js/store/index.js");
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -36690,8 +36690,8 @@ Vue.component('example-component', __webpack_require__(/*! ./components/Nav.vue 
 
 var app = new Vue({
   el: '#app',
-  router: _router__WEBPACK_IMPORTED_MODULE_0__["default"],
-  store: _store__WEBPACK_IMPORTED_MODULE_1__["default"]
+  routes: _router_index__WEBPACK_IMPORTED_MODULE_0__["default"],
+  store: _store_index__WEBPACK_IMPORTED_MODULE_1__["default"]
 });
 
 /***/ }),
@@ -36868,7 +36868,7 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   base: process.env.BASE_URL,
   routes: routes
 });
-/* harmony default export */ __webpack_exports__["default"] = (vuex);
+/* harmony default export */ __webpack_exports__["default"] = (routes);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/process/browser.js */ "./node_modules/process/browser.js")))
 
 /***/ }),

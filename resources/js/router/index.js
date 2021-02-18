@@ -52,4 +52,4 @@ const router = new VueRouter({
 });
 
 
-export default vuex;
+export default routes;
