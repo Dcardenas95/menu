@@ -27,9 +27,10 @@ Vue.component('example-component', require('./components/Nav.vue').default);
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
-import VueRouter from 'vue-router'
-import router from './router/index'
-import Vuex from './store/index'
+
+import router from './router'
+import store from './store'
+
 
 const app = new Vue({
     el: '#app',
@@ -37,5 +38,5 @@ const app = new Vue({
     store
 });
 
-Vue.use(VueRouter)
-Vue.use(Vuex)
+
+

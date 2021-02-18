@@ -21,13 +21,13 @@ const routes = [
 {
     path: "/customers",
     name: "customer",
-    component: AuthView
+    component: Customer
 },
 
 {
     path: "/menus",
     name: "menus",
-    component: UserProfileView,
+    component: Menu,
     meta: {
         requiresAuth: true
     }
@@ -36,7 +36,7 @@ const routes = [
 {
     path: "/orders",
     name: "order",
-    component: UserProfileView,
+    component: Order,
     meta: {
         requiresAuth: true
     }
@@ -52,4 +52,4 @@ const router = new VueRouter({
 });
 
 
-export default router;
+export default vuex;
