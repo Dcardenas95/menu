@@ -28,12 +28,12 @@ Vue.component('example-component', require('./components/Nav.vue').default);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-import routes from './router/index'
-import store from './store/index'
+import router from './router'
+import store from './store'
 
 const app = new Vue({
     el: '#app',
-    routes,
+    router,
     store
 })
 
