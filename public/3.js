@@ -23,7 +23,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
-      _c("div", { staticClass: "container bg-blue-500" }, [
+      _c("div", { staticClass: "container bg-blue-500 mt-5" }, [
         _c("h1", { staticClass: "text-center" }, [_vm._v("esta en ordenes")])
       ])
     ])
